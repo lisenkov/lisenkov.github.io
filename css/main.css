@@ -1,0 +1,271 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: #1a1a1a;
+	background: url('../images/background-stars.jpg') repeat;
+	font-family: 'PT Serif'; 
+	color: white;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 960px;
+	padding: 0 10px;
+	position: relative;
+}
+
+a:visited, a {
+	color: white;
+}
+
+
+/* Стили header */
+
+.city, .login, .label, .phone {
+	float: left;
+}
+
+.header-wrap {
+	height: 120px;
+	padding-top: 40px;
+	font-size: 14px;
+	color: white;
+	border-bottom: 3px solid #272727;
+	font-family: 'Open Sans';
+}
+
+.label {
+	position: absolute;
+	width: 180px;
+	left: 390px;
+	top: -15px;
+}
+
+.city {
+	width: 70px;
+	text-align: right; /* ВРЕМеННО! ПОКА НЕТ ЗНАЧКА */
+}
+.city span {
+	text-decoration: none;
+	border-bottom: 1px dotted white;
+}
+
+.login {
+	padding-left: 70px;
+}
+
+.unlogin {
+	margin-left: -16px;
+}
+
+.login a.button {
+	margin-left: 27px;
+}
+
+a.button {
+	padding: 10px 15px;
+	background-color: rgb(49, 49, 49);
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.phone {
+	float: right;
+	text-align: right;
+}
+
+.phone div:first-child {
+	color: #808080;
+}
+
+.phone div:last-child {
+	font-family: 'PT Serif';
+	font-size: 24px;
+}
+
+
+/* СТИТИ МЕНЮ */
+
+.menu-wrap {
+	position: relative;
+	bottom: -43px;
+}
+
+.menu-wrap ul {
+	background-color: #222222;
+	width: 783px;
+	margin: 0 auto;
+}
+.menu-wrap ul li {
+	font-size: 15px;
+	display: inline-block;
+	width: 152px;
+	padding: 17px 0px;
+
+}
+
+.menu-wrap-left {
+	float: left;
+	background: url(../images/menu-left.png);
+	height: 54px;
+	width: 13px;
+	position: relative;
+	left: 56px;
+}
+
+.menu-wrap-right {
+	float: right;
+	background: url(../images/menu-right.png);
+	height: 54px;
+	width: 13px;
+	position: absolute;
+	right: 56px;
+	top: 0px;
+}
+
+/* Заголовки */
+
+.head_main h1 {
+	font-size: 1.7em;
+	text-align: center;
+	margin: 32px 0 0 0;
+}
+
+.head_main h2 {
+	font-size: 1.05em;	
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+.head_main {
+	width: 720px;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0 auto;
+}
+
+.underline {
+	float: left;
+	height: 40px;
+	width: 300px;
+	border-bottom: 2px solid #484848;
+}
+
+.underline_key {
+	float: left;
+	position: relative;
+	height: 40px;
+	width: 120px;
+	margin-bottom: 50px;
+}
+
+.underline_key img {
+	position: relative;
+	bottom: -36px;
+}
+
+/* Стили квестов */
+
+.quest {
+	width: 940px;
+	height: 450px;
+	position: relative;
+	margin: 0 auto 27px auto;
+}
+
+.quest:last-child {
+	margin-bottom: 50px;
+}
+.quest .blackout {
+	position: absolute;
+	width: 940px;
+	height: 450px;
+	background-color: rgba(0,0,0,0.46);
+}
+.quest .background_img {
+	position: absolute;
+	width: 940px;
+	height: 450px;
+	text-align: left;
+}
+
+.quest_picto, .quest_name, .quest_descript, .quest_players, .quest_button, 
+.developing_quest {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 20px;
+}
+
+.quest_picto {
+	padding-top: 27px;
+	
+}
+
+.quest_name {
+	padding-top: 9px;	
+	
+}
+
+.quest_name h3 {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.quest_players {
+	margin: 10px 0 0 0;
+}
+
+.quest_button {
+	background: url('../images/button.png');
+	height: 62px;
+	width: 207px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	font-size: 21px;
+	position: absolute;
+	bottom: 10px;
+	left: 357px;
+}
+
+.developing_quest {
+	margin: 13px auto 0 auto;
+}
+
+.developing_quest span {
+	background-color: #ff6e0e;
+	padding: 11px 18px;
+	font-size: 18px;
+}
+
+
+/* ФУТЕР */
+.footer-wrap {
+	background-color: black;
+	height: 130px;
+	padding-top: 28px;
+}
+
+.foot {
+	width: 220px;
+	height: 130px;
+	text-align: left;
+	font-size: 14px;
+	color: #959595;
+	float: left;
+}
+
+.foot a {
+	font-weight: normal;
+	color: #959595;
+}
